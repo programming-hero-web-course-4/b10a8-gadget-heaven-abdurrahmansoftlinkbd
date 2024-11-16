@@ -5,7 +5,7 @@ const CategoryBtns = ({ category }) => {
   const { category_name } = category;
   return (
     <NavLink
-      to="/gadgets"
+      to={`/gadgets/${category_name}`}
       className="font-medium bg-gray1 py-3 rounded-3xl px-7"
     >
       {category_name}

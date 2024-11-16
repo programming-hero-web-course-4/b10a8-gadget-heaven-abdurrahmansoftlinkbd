@@ -12,7 +12,7 @@ const Home = () => {
       {/* gadgetsTitle */}
       <GadgetsTitle></GadgetsTitle>
       {/* categories */}
-      <div className="container mx-auto mt-12">
+      <div className="container mx-auto mt-12 flex justify-between gap-6">
         <Categories categories={categories}></Categories>
         {/* dynamicGadgets */}
         <Outlet></Outlet>

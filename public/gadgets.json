@@ -1,0 +1,155 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "Phones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/s23ultra.jpg",
+    "category": "Phones",
+    "price": 1199,
+    "description": "Samsung's flagship phone with a stunning design and powerful features.",
+    "specification": [
+      "6.8-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "200MP quad-camera system",
+      "5000mAh battery",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://example.com/pixel8pro.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "Google's latest phone with an enhanced camera and AI features.",
+    "specification": [
+      "6.7-inch LTPO OLED display",
+      "Google Tensor G3 chip",
+      "50MP wide camera, 48MP telephoto, 12MP ultrawide",
+      "Face Unlock and fingerprint sensor",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "C001",
+    "product_title": "Apple MacBook Pro 16",
+    "product_image": "https://example.com/macbookpro16.jpg",
+    "category": "Computers",
+    "price": 2499,
+    "description": "A powerhouse laptop with the M2 Max chip for professionals.",
+    "specification": [
+      "16-inch Liquid Retina XDR display",
+      "M2 Max chip",
+      "32-core GPU",
+      "64GB unified memory",
+      "Up to 8TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "C002",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://example.com/xps15.jpg",
+    "category": "Computers",
+    "price": 1899,
+    "description": "A high-performance laptop with a stunning 4K display.",
+    "specification": [
+      "15.6-inch UHD+ display",
+      "Intel Core i9 processor",
+      "NVIDIA RTX 3050 Ti",
+      "32GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "C003",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/spectrex360.jpg",
+    "category": "Computers",
+    "price": 1599,
+    "description": "A convertible laptop with a stunning design and powerful features.",
+    "specification": [
+      "13.5-inch OLED display",
+      "Intel Evo i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "360-degree hinge"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "S001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://example.com/applewatch9.jpg",
+    "category": "Smartwatches",
+    "price": 499,
+    "description": "The latest Apple Watch with enhanced health tracking features.",
+    "specification": [
+      "Always-on Retina display",
+      "S9 chip",
+      "Blood oxygen sensor",
+      "ECG app",
+      "18-hour battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "S002",
+    "product_title": "Samsung Galaxy Watch 6 Classic",
+    "product_image": "https://example.com/galaxywatch6classic.jpg",
+    "category": "Smartwatches",
+    "price": 399,
+    "description": "Samsung's latest smartwatch with advanced fitness tracking features.",
+    "specification": [
+      "1.5-inch Super AMOLED display",
+      "Exynos W930 chip",
+      "Sleep monitoring",
+      "Heart rate and ECG sensor",
+      "5ATM water resistance"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "A001",
+    "product_title": "Anker 737 Power Bank",
+    "product_image": "https://example.com/anker737.jpg",
+    "category": "Accessories",
+    "price": 129,
+    "description": "High-capacity power bank with fast charging support.",
+    "specification": [
+      "24,000mAh capacity",
+      "USB-C PD 45W output",
+      "Dual USB-A ports",
+      "Compact design",
+      "LED battery indicator"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
