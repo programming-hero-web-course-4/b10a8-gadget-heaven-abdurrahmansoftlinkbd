@@ -1,0 +1,18 @@
+[
+  {
+    "category_id": "C001",
+    "category_name": "Phones"
+  },
+  {
+    "category_id": "C002",
+    "category_name": "Computers"
+  },
+  {
+    "category_id": "C003",
+    "category_name": "Smartwatches"
+  },
+  {
+    "category_id": "C004",
+    "category_name": "Accessories"
+  }
+]
