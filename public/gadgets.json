@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphone15promax.jpg",
+    "product_image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg",
     "category": "Phones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -19,7 +19,7 @@
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://example.com/s23ultra.jpg",
+    "product_image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-1.jpg",
     "category": "Phones",
     "price": 1199,
     "description": "Samsung's flagship phone with a stunning design and powerful features.",
@@ -36,7 +36,7 @@
   {
     "product_id": "P003",
     "product_title": "Google Pixel 8 Pro",
-    "product_image": "https://example.com/pixel8pro.jpg",
+    "product_image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg",
     "category": "Phones",
     "price": 999,
     "description": "Google's latest phone with an enhanced camera and AI features.",
@@ -51,9 +51,60 @@
     "rating": 4.6
   },
   {
+    "product_id": "P004",
+    "product_title": "OnePlus 12",
+    "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/cn/12/12-black.png",
+    "category": "Phones",
+    "price": 899,
+    "description": "Experience speed and performance with the OnePlus 12.",
+    "specification": [
+      "6.7-inch AMOLED display with 120Hz refresh rate",
+      "Snapdragon 8 Gen 2 processor",
+      "50MP Triple-camera system",
+      "5000mAh battery with 100W fast charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Xiaomi 13 Ultra",
+    "product_image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-149039/Xiaomi-13-Ultra_featured-image-packshot-review.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "Revolutionary design and performance with Xiaomi 13 Ultra.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "50MP Leica Quad-camera setup",
+      "120W fast charging",
+      "1TB storage option"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-v-1.jpg",
+    "category": "Phones",
+    "price": 1199,
+    "description": "Ultimate multimedia experience with the Xperia 1 V.",
+    "specification": [
+      "6.5-inch 4K OLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple 12MP cameras with advanced videography features",
+      "5000mAh battery with wireless charging",
+      "Expandable storage with microSD"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
     "product_id": "C001",
     "product_title": "Apple MacBook Pro 16",
-    "product_image": "https://example.com/macbookpro16.jpg",
+    "product_image": "https://www.apple.com/newsroom/images/tile-images/Apple_16-inch-MacBook-Pro_111319.jpg.landing-big_2x.jpg",
     "category": "Computers",
     "price": 2499,
     "description": "A powerhouse laptop with the M2 Max chip for professionals.",
@@ -70,7 +121,7 @@
   {
     "product_id": "C002",
     "product_title": "Dell XPS 15",
-    "product_image": "https://example.com/xps15.jpg",
+    "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/touch-black/notebook-xps-15-9530-t-black-gallery-5.psd?fmt=pjpg&pscan=auto&scl=1&wid=3481&hei=2067&qlt=100,1&resMode=sharp2&size=3481,2067&chrss=full&imwidth=5000",
     "category": "Computers",
     "price": 1899,
     "description": "A high-performance laptop with a stunning 4K display.",
@@ -87,7 +138,7 @@
   {
     "product_id": "C003",
     "product_title": "HP Spectre x360",
-    "product_image": "https://example.com/spectrex360.jpg",
+    "product_image": "https://www.hp.com/ch-de/shop/Html/Merch/Images/9E4X6EA-UUZ_1750x1285.jpg",
     "category": "Computers",
     "price": 1599,
     "description": "A convertible laptop with a stunning design and powerful features.",
@@ -104,7 +155,7 @@
   {
     "product_id": "S001",
     "product_title": "Apple Watch Series 9",
-    "product_image": "https://example.com/applewatch9.jpg",
+    "product_image": "https://itronics.in/wp-content/uploads/2023/09/Apple_Watch_Series_9_LTE_41mm_Gold_Stainless_Steel_Gold_Milanese_Loop_PDP_Image_Position-1__en-US-scaled.jpg",
     "category": "Smartwatches",
     "price": 499,
     "description": "The latest Apple Watch with enhanced health tracking features.",
@@ -121,7 +172,7 @@
   {
     "product_id": "S002",
     "product_title": "Samsung Galaxy Watch 6 Classic",
-    "product_image": "https://example.com/galaxywatch6classic.jpg",
+    "product_image": "https://www.gadstyle.com/wp-content/uploads/2023/11/samsung-galaxy-watch-6-classic-47mm-7.webp",
     "category": "Smartwatches",
     "price": 399,
     "description": "Samsung's latest smartwatch with advanced fitness tracking features.",
@@ -138,7 +189,7 @@
   {
     "product_id": "A001",
     "product_title": "Anker 737 Power Bank",
-    "product_image": "https://example.com/anker737.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Anker-737-Power-Bank-PowerCore-24000mAh-140W-a-1323.jpg",
     "category": "Accessories",
     "price": 129,
     "description": "High-capacity power bank with fast charging support.",

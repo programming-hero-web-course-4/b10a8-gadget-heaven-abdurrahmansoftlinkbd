@@ -7,10 +7,10 @@ const CategoryBtns = ({ category }) => {
     <NavLink
       to={`/gadgets/${category_name}`}
       className={({ isActive }) =>
-        `font-medium bg-gray1 py-3 rounded-3xl px-7 ${
+        `font-medium bg-gray1 py-3 rounded-3xl px-7 hover:bg-purple-600 hover:text-white ${
           isActive
-            ? "bg-purple-600 text-white duration-200 transition-colors ease-in-out"
-            : ""
+            ? "bg-purple-600 font-extrabold text-white duration-200 transition-colors ease-in-out"
+            : "duration-200 transition-colors ease-in-out"
         }`
       }
     >

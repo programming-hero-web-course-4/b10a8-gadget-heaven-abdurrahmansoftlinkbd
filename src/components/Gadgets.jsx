@@ -19,7 +19,7 @@ const Gadgets = () => {
   }, [gadgets, gadgetsCategory]);
 
   return (
-    <div className="w-3/4 grid grid-cols-3 gap-6">
+    <div className="w-3/4 grid grid-cols-3 gap-6 gap-x-10 font-sora">
       {filteredGadgets.map((gadget) => (
         <Gadget key={gadget.product_id} gadget={gadget}></Gadget>
       ))}
