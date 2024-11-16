@@ -1,6 +1,7 @@
+import bannerImg from "../assets/banner.jpg";
 const Banner = () => {
   return (
-    <div className="hero container mx-auto bg-purple-600 text-white font-sora">
+    <div className="hero container mx-auto bg-purple-600 text-white font-sora pb-64 mb-[70rem]">
       <div className="hero-content text-center">
         <div>
           <h1 className="text-5xl font-bold px-40">
@@ -15,6 +16,9 @@ const Banner = () => {
             Shop Now
           </button>
         </div>
+      </div>
+      <div className="w-3/5 mx-auto absolute top-[430px] outline outline-1 rounded-3xl outline-offset-[24px]">
+        <img className="w-full h-[500px] rounded-3xl" src={bannerImg} alt="" />
       </div>
     </div>
   );
