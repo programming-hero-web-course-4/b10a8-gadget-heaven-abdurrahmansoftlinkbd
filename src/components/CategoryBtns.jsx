@@ -6,7 +6,13 @@ const CategoryBtns = ({ category }) => {
   return (
     <NavLink
       to={`/gadgets/${category_name}`}
-      className="font-medium bg-gray1 py-3 rounded-3xl px-7"
+      className={({ isActive }) =>
+        `font-medium bg-gray1 py-3 rounded-3xl px-7 ${
+          isActive
+            ? "bg-purple-600 text-white duration-200 transition-colors ease-in-out"
+            : ""
+        }`
+      }
     >
       {category_name}
     </NavLink>

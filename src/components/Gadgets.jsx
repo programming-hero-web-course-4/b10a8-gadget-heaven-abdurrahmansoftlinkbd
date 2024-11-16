@@ -8,10 +8,14 @@ const Gadgets = () => {
   const { gadgetsCategory } = useParams();
   const [filteredGadgets, setFilteredGadgets] = useState([]);
   useEffect(() => {
-    const gadgetsFiltered = [...gadgets].filter(
-      (gadgetItem) => gadgetItem.category === gadgetsCategory
-    );
-    setFilteredGadgets(gadgetsFiltered);
+    if (gadgetsCategory) {
+      const gadgetsFiltered = [...gadgets].filter(
+        (gadgetItem) => gadgetItem.category === gadgetsCategory
+      );
+      setFilteredGadgets(gadgetsFiltered);
+    } else {
+      setFilteredGadgets(gadgets);
+    }
   }, [gadgets, gadgetsCategory]);
 
   return (

@@ -1,9 +1,5 @@
 [
   {
-    "category_id": "C000",
-    "category_name": "All Products"
-  },
-  {
     "category_id": "C001",
     "category_name": "Phones"
   },
