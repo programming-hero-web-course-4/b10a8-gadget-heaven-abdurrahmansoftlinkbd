@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="navbar container mx-auto bg-purple-600 text-white rounded-t-3xl mt-6 px-10">
+    <div className="navbar container mx-auto bg-purple-600 text-white rounded-t-3xl mt-6 px-10 font-sora py-4">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,35 +46,30 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="text-xl">
+        <Link to="/" className="text-xl font-bold">
           Gadget Heaven
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+        <ul className="menu menu-horizontal px-1 space-x-12">
+          <NavLink to="/" className="font-medium">
+            Home
+          </NavLink>
+          <NavLink to="/statistics" className="font-medium">
+            Statistics
+          </NavLink>
+          <NavLink to="/dashboard" className="font-medium">
+            Dashboard
+          </NavLink>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end space-x-4">
+        <Link className="text-black bg-white px-4 py-4 rounded-full text-xl">
+          <AiOutlineShoppingCart />
+        </Link>
+        <Link className="text-black bg-white px-4 py-4 rounded-full text-xl">
+          <FaRegHeart />
+        </Link>
       </div>
     </div>
   );
