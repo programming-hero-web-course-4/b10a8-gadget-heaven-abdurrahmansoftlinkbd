@@ -44,13 +44,34 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-12">
-          <NavLink to="/" className="font-medium">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `font-medium ${
+                isActive ? "font-bold underline" : "hover:underline"
+              }`
+            }
+          >
             Home
           </NavLink>
-          <NavLink to="/statistics" className="font-medium">
+          <NavLink
+            to="/statistics"
+            className={({ isActive }) =>
+              `font-medium ${
+                isActive ? "font-bold underline" : "hover:underline"
+              }`
+            }
+          >
             Statistics
           </NavLink>
-          <NavLink to="/dashboard" className="font-medium">
+          <NavLink
+            to="/dashboard"
+            className={({ isActive }) =>
+              `font-medium ${
+                isActive ? "font-bold underline" : "hover:underline"
+              }`
+            }
+          >
             Dashboard
           </NavLink>
         </ul>
