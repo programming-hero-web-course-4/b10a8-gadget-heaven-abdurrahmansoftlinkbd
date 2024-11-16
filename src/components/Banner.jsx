@@ -3,7 +3,7 @@ const Banner = () => {
   return (
     <>
       {/* banner title */}
-      <div className="hero container mx-auto bg-purple-600 text-white font-sora pb-64 mb-[70rem]">
+      <div className="hero container mx-auto bg-purple-600 text-white font-sora pb-64 mb-96">
         <div className="hero-content text-center">
           <div>
             <h1 className="text-5xl font-bold px-40">
