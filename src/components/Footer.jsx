@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
       <div className="hero bg-gray-100 mt-24 font-sora">
         <div className="hero-content pt-24 text-center">
           <div>
-            <h1 className="text-4xl font-bold ">Gadget Heaven</h1>
+            <Link to="/" className="text-4xl font-bold ">
+              Gadget Heaven
+            </Link>
             <p className="mt-3 mb-7 text-gray3 font-medium">
               Leading the way in cutting-edge technology and innovation.
             </p>
