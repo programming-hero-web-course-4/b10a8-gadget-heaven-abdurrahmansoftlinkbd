@@ -3,7 +3,7 @@ import CategoryBtns from "./CategoryBtns";
 
 const Categories = ({ categories }) => {
   return (
-    <aside className="w-1/4 flex flex-col font-sora gap-2 p-6 border border-gray2 rounded-2xl gap-6">
+    <aside className="w-1/4 flex flex-col font-sora p-6 border border-gray2 rounded-2xl gap-6">
       {categories.map((category) => (
         <CategoryBtns
           key={category.category_id}
