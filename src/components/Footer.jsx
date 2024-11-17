@@ -16,27 +16,29 @@ const Footer = () => {
         </div>
       </div>
       <hr className="container mx-auto" />
-      <footer className="footer bg-gray-100 container mx-auto justify-items-center font-sora p-10">
-        <nav>
-          <h6 className="footer-title opacity-100">Services</h6>
-          <a className="link text-gray3 link-hover">Product Support</a>
-          <a className="link text-gray3 link-hover">Order Tracking</a>
-          <a className="link text-gray3 link-hover">Shipping & Delivery</a>
-          <a className="link text-gray3 link-hover">Returns</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title opacity-100">Company</h6>
-          <a className="link text-gray3 link-hover">About us</a>
-          <a className="link text-gray3 link-hover">Careers</a>
-          <a className="link text-gray3 link-hover">Contact</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title opacity-100">Legal</h6>
-          <a className="link text-gray3 link-hover">Terms of Service</a>
-          <a className="link text-gray3 link-hover">Privacy Policy</a>
-          <a className="link text-gray3 link-hover">Cookie Policy</a>
-        </nav>
-      </footer>
+      <div className="bg-gray-100">
+        <footer className="footer  container mx-auto justify-items-center font-sora p-10">
+          <nav>
+            <h6 className="footer-title opacity-100">Services</h6>
+            <a className="link text-gray3 link-hover">Product Support</a>
+            <a className="link text-gray3 link-hover">Order Tracking</a>
+            <a className="link text-gray3 link-hover">Shipping & Delivery</a>
+            <a className="link text-gray3 link-hover">Returns</a>
+          </nav>
+          <nav>
+            <h6 className="footer-title opacity-100">Company</h6>
+            <a className="link text-gray3 link-hover">About us</a>
+            <a className="link text-gray3 link-hover">Careers</a>
+            <a className="link text-gray3 link-hover">Contact</a>
+          </nav>
+          <nav>
+            <h6 className="footer-title opacity-100">Legal</h6>
+            <a className="link text-gray3 link-hover">Terms of Service</a>
+            <a className="link text-gray3 link-hover">Privacy Policy</a>
+            <a className="link text-gray3 link-hover">Cookie Policy</a>
+          </nav>
+        </footer>
+      </div>
     </>
   );
 };
