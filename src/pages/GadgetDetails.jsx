@@ -4,6 +4,7 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
+import { addToStoredCart, addToStoredWishList } from "../utils/addToLS";
 
 const GadgetDetails = () => {
   const allGadgets = useLoaderData();
@@ -20,6 +21,7 @@ const GadgetDetails = () => {
   }, [allGadgets, id]);
 
   const {
+    product_id,
     product_image,
     product_title,
     price,
@@ -28,13 +30,20 @@ const GadgetDetails = () => {
     specification = [],
     rating,
   } = everyGadget;
-  console.log(typeof rating);
 
   const starRating = {
     size: 30,
     count: 5,
     value: rating || 0,
     edit: false,
+  };
+
+  const handleAddToCart = (id) => {
+    addToStoredCart(id);
+  };
+
+  const handleAddToWishList = (id) => {
+    addToStoredWishList(id);
   };
 
   return (
@@ -84,13 +93,19 @@ const GadgetDetails = () => {
             </p>
           </div>
           <div className="flex gap-4 items-center mt-4">
-            <Link className="flex items-center bg-purple-600 text-white gap-3 py-3 px-5 rounded-full font-bold text-lg hover:bg-purple-500 duration-200 transition-colors ease-in-out">
+            <button
+              onClick={() => handleAddToCart(product_id)}
+              className="flex items-center bg-purple-600 text-white gap-3 py-3 px-5 rounded-full font-bold text-lg hover:bg-purple-500 duration-200 transition-colors ease-in-out"
+            >
               Add To Card
               <AiOutlineShoppingCart className="text-2xl" />
-            </Link>
-            <Link className="p-3 border border-gray-300 rounded-full text-2xl hover:bg-gray-300 duration-200 transition-colors ease-in-out">
+            </button>
+            <button
+              onClick={() => handleAddToWishList(product_id)}
+              className="p-3 border border-gray-300 rounded-full text-2xl hover:bg-gray-300 duration-200 transition-colors ease-in-out"
+            >
               <FaRegHeart />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
