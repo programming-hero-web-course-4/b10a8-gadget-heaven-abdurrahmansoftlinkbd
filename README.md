@@ -6,8 +6,7 @@
 
 ## Requirement Document Link
 
-[Link to Requirement Document](#)  
-(_Replace `#` with the actual link to your requirement document._)
+[Link to Requirement Document](https://drive.google.com/file/d/1nF-58FOeAfItTi-04IlLiKDWzWyDmBPi/view?usp=drive_link)
 
 ## React Fundamentals Used
 
