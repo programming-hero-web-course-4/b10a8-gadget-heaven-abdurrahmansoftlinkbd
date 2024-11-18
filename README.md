@@ -6,7 +6,7 @@
 
 ## Requirement Document Link
 
-[Link to Requirement Document](https://drive.google.com/file/d/1nF-58FOeAfItTi-04IlLiKDWzWyDmBPi/view?usp=drive_link)
+[Requirement Document](https://drive.google.com/file/d/1nF-58FOeAfItTi-04IlLiKDWzWyDmBPi/view?usp=drive_link)
 
 ## React Fundamentals Used
 
