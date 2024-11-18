@@ -77,10 +77,16 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end space-x-4">
-        <Link className="text-black bg-white px-4 py-4 rounded-full text-xl">
+        <Link
+          to="/dashboard"
+          className="text-black bg-white px-4 py-4 rounded-full text-xl"
+        >
           <AiOutlineShoppingCart />
         </Link>
-        <Link className="text-black bg-white px-4 py-4 rounded-full text-xl">
+        <Link
+          to="/dashboard"
+          className="text-black bg-white px-4 py-4 rounded-full text-xl"
+        >
           <FaRegHeart />
         </Link>
       </div>
