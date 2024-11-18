@@ -74,6 +74,16 @@ const Navbar = () => {
           >
             Dashboard
           </NavLink>
+          <NavLink
+            to="/customerservice"
+            className={({ isActive }) =>
+              `font-medium ${
+                isActive ? "font-bold underline" : "hover:underline"
+              }`
+            }
+          >
+            Customer Service
+          </NavLink>
         </ul>
       </div>
       <div className="navbar-end space-x-4">
