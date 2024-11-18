@@ -1,6 +1,5 @@
-import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
@@ -112,7 +111,5 @@ const GadgetDetails = () => {
     </div>
   );
 };
-
-GadgetDetails.propTypes = {};
 
 export default GadgetDetails;
