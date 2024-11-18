@@ -2,14 +2,18 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { getStoredCart } from "../utils/addToLS";
+import { getStoredCart, getStoredWishList } from "../utils/addToLS";
 import CartList from "../components/CartList";
 import { BiSort } from "react-icons/bi";
+import WishList from "../components/WishList";
 
 const Dashboard = () => {
   const [gadgets, setGadgets] = useState([]);
+  const [gadgetsWishList, setGadgetsWishList] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const allGadgetsCollection = useLoaderData();
+
+  console.log(gadgetsWishList);
 
   // const [sort, setSort] = useState("");
 
@@ -19,6 +23,12 @@ const Dashboard = () => {
       storedCart.includes(gadget.product_id)
     );
     setGadgets(cartList);
+
+    const storedWishList = getStoredWishList();
+    const wishList = allGadgetsCollection.filter((gadget) =>
+      storedWishList.includes(gadget.product_id)
+    );
+    setGadgetsWishList(wishList);
 
     const total = cartList.reduce((sum, gadget) => sum + gadget.price, 0);
     setTotalPrice(total);
@@ -75,7 +85,15 @@ const Dashboard = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+            <h2 className="my-8 font-bold text-2xl text-left">WishList</h2>
+            <div>
+              {gadgetsWishList.map((gadgetWishList) => (
+                <WishList
+                  key={gadgetWishList.product_id}
+                  gadgetWishList={gadgetWishList}
+                ></WishList>
+              ))}
+            </div>
           </TabPanel>
         </Tabs>
       </div>
